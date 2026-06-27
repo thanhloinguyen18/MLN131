@@ -262,7 +262,7 @@ export default function App() {
                     Interactive
                   </span>
                 </div>
-                <div style={{ padding: 12 }}>
+                <div style={{ padding: 12, overflowX: "auto" }}>
                   <ConceptMap onSelect={setSelectedNode} />
                 </div>
                 <div style={{ padding: "10px 16px", borderTop: "1px solid rgba(225,29,72,0.15)", background: "rgba(225,29,72,0.05)" }}>

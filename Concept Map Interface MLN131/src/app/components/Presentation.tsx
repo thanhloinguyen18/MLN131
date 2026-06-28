@@ -527,7 +527,7 @@ export function Presentation() {
                   <div style={{ position: "absolute", left: 9, top: 8, bottom: 8, width: 2, background: "linear-gradient(to bottom, #818cf8, #f472b6)", borderRadius: 2 }} />
                   {[
                     { label: "Nhập yêu cầu", desc: "Mô tả giao diện, tính năng bằng ngôn ngữ tự nhiên qua Antigravity" },
-                    { label: "AI sinh code", desc: "Claude phân tích yêu cầu và viết toàn bộ code React/Tailwind" },
+                    { label: "AI sinh code", desc: "AI phân tích yêu cầu và viết toàn bộ code React/Tailwind" },
                     { label: "Xem preview", desc: "Kết quả hiển thị ngay trên Figma Make, không cần build thủ công" },
                     { label: "Phản hồi & tinh chỉnh", desc: "Nhận xét trực tiếp trên giao diện, yêu cầu sửa lại nếu chưa đạt" },
                   ].map((step, i) => (
@@ -583,8 +583,8 @@ export function Presentation() {
                   <div style={{ padding: "14px 16px", display: "flex", flexDirection: "column", gap: 12 }}>
                     {[
                       { step: "1", title: "Xác định cấu trúc nội dung", desc: "Nhóm đọc giáo trình MLN131, xác định các khái niệm trọng tâm của chương 3 và mối quan hệ giữa chúng." },
-                      { step: "2", title: "Prompt mô tả sơ đồ", desc: "Mô tả cho Claude: số lượng node, phân cấp (trung tâm → chính → phụ), màu sắc theo nhóm và loại kết nối giữa các node." },
-                      { step: "3", title: "AI sinh code SVG", desc: "Claude tạo toàn bộ sơ đồ bằng SVG trong React — tọa độ từng node, đường nối, gradient, animation, và popup thuyết minh." },
+                      { step: "2", title: "Prompt mô tả sơ đồ", desc: "Mô tả cho AI: số lượng node, phân cấp (trung tâm → chính → phụ), màu sắc theo nhóm và loại kết nối giữa các node." },
+                      { step: "3", title: "AI sinh code SVG", desc: "AI tạo toàn bộ sơ đồ bằng SVG trong React — tọa độ từng node, đường nối, gradient, animation, và popup thuyết minh." },
                       { step: "4", title: "Tinh chỉnh qua nhiều vòng", desc: "Điều chỉnh màu sắc, kích thước, bố cục, UX popup cho đến khi sơ đồ rõ ràng và dễ nhìn nhất có thể." },
                     ].map((s, i) => (
                       <div key={i} style={{ display: "flex", gap: 10, alignItems: "flex-start" }}>
@@ -699,7 +699,7 @@ export function Presentation() {
                 <div style={{ fontSize: "12px", fontWeight: 800, color: "#fbbf24", marginBottom: 7, letterSpacing: "0.03em" }}>Tuyên bố minh bạch</div>
                 <p style={{ fontSize: "13px", color: T.textSub, lineHeight: 1.8 }}>
                   <span style={{ color: "#fbbf24", fontWeight: 700 }}>Nội dung lý thuyết</span> lấy từ giáo trình MLN131 và tài liệu chính thống — AI chỉ hỗ trợ diễn đạt và trình bày.{" "}
-                  <span style={{ color: "#a78bfa", fontWeight: 700 }}>Toàn bộ giao diện và code</span> do Claude AI sinh ra theo yêu cầu của nhóm.{" "}
+                  <span style={{ color: "#a78bfa", fontWeight: 700 }}>Toàn bộ giao diện và code</span> do AI sinh ra theo yêu cầu của nhóm.{" "}
                   <span style={{ color: "#34d399", fontWeight: 700 }}>Tư duy sáng tạo và định hướng</span> hoàn toàn đến từ nhóm thực hiện — AI là công cụ, không phải tác giả.
                 </p>
               </div>
